@@ -16,7 +16,7 @@ This project involved setting up a secure file management system using Amazon We
 ### IAM Permissioning
 
 1. **IAM Policies Definition:** I defined IAM policies to restrict access to the S3 bucket based on user roles, ensuring secure data handling.
-2. **IAM Roles for Users:** I created IAM roles for different user types, such as administrators and regular users, and assigned appropriate policies to each role to maintain access control.
+2. **IAM Roles for Users:** I created IAM roles for different user types, such as administrators and regular users. For administrators, I devised JSON policies granting full access to S3 resources, while for regular users, I implemented policies ensuring read-only access. These measures upheld stringent access control, fostering secure data management practices within the system.
 3. **Secure Access Assurance:** I ensured that only authenticated users with the correct permissions could perform actions like uploading/downloading files to/from the S3 bucket, enhancing system security.
 
 ### IAM Roles and Policies Documentation
