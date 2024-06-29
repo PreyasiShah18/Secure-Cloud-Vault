@@ -1,6 +1,6 @@
 ## AWS S3 Bucket Management System
 
-This project involved setting up a secure file management system using Amazon Web Services (AWS) S3 buckets. The goal was to create a platform where users could securely register, log in, and upload/download files.
+In an era where data breaches are increasingly common, I aimed to develop a web application that prioritized data security and user privacy. This project involved setting up a secure file management system using Amazon Web Services (AWS) S3 buckets. The goal was to create a platform where users could securely register, log in, and upload/download files.
 
 ### AWS Setup
 
